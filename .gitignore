@@ -1,0 +1,41 @@
+# Ignorar la carpeta node_modules y su contenido
+node_modules/
+
+# Ignorar el archivo .env que contiene variables de entorno sensibles
+.env
+
+# Ignorar la carpeta de distribución o compilación si existe
+dist/
+build/
+
+# Ignorar archivos de registro generados durante el desarrollo o ejecución
+*.log
+
+# Ignorar archivos específicos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales generados por editores como Vim
+.*.swp
+.*.swo
+
+# Ignorar archivos generados por herramientas de cobertura de código
+coverage/
+
+# Ignorar archivos temporales o de caché
+tmp/
+.cache/
+
+# Ignorar archivos de configuración de Visual Studio Code si se usa
+.vscode/
+
+# Ignorar archivos específicos del entorno de desarrollo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar archivos de dependencias específicos de desarrollo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
